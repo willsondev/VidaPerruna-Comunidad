@@ -8,7 +8,7 @@ const cards = [
   {
     description: "Epilepsia ",
     title: "Yorkshire terrier",
-    src: "../../public/fondo1.png",
+    src: "/fondo1.png",
     ctaText: "Play",
     ctaLink: "https://www.youtube.com/watch?v=6SPBg1ZadOU",
     content: () => {
@@ -28,7 +28,7 @@ const cards = [
   {
     description: "Diabetes",
     title: "Samoyedo",
-    src: "../../public/samoyedo.png",
+    src: "/samoyedo.png",
     ctaText: "Play",
     ctaLink: "https://www.youtube.com/watch?v=mWSyCgKUk_Y",
     content: () => {
@@ -49,7 +49,7 @@ La diabetes mellitus es otra enfermedad que afecta tanto a humanos como a perros
   {
     description: "Cáncer",
     title: "Bóxer",
-    src: "../../public/boxer.png",
+    src: "/boxer.png",
     ctaText: "Play",
     ctaLink: "https://www.youtube.com/watch?v=AcpHPjzSdlw",
     content: () => {
@@ -70,7 +70,7 @@ Razas grandes como el Bóxer, Rottweiler y Golden Retriever son más propensas a
   {
     description: "Enfermedades Cardíacas",
     title: "Cavalier King",
-    src: "../../public/cavalier.png",
+    src: "/cavalier.png",
     ctaText: "Play",
     ctaLink: "https://www.youtube.com/watch?v=r8CXcNprBJI",
     content: () => {
@@ -89,7 +89,7 @@ Las enfermedades cardíacas, como la insuficiencia cardíaca congestiva, son com
   {
     description: "Artritis",
     title: "Pastor Alemán",
-    src: "../../public/pastor_aleman.jpg",
+    src: "/pastor_aleman.jpg",
     ctaText: "Play",
     ctaLink: "https://www.youtube.com/watch?v=6w-lfbImEqg",
     content: () => {

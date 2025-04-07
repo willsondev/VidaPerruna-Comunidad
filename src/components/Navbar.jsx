@@ -23,7 +23,7 @@ const Navbar = () => {
 
       {/* Logo */}
       <div className="flex-grow flex justify-center items-center space-x-2">
-        <img className="h-16" src="/public/icono.png" alt="Icono de prueba" />
+        <img className="h-16" src="/icono.png" alt="Icono de prueba" />
         <h1 className="font-bold text-2xl">Vida <br /> Perruna</h1>
       </div>
 

@@ -3,8 +3,8 @@ import ExpandableCardDemo from './components/Cards';
 import { useState } from 'react';
 
 function App() {
-  const [mainTitle, setMainTitle] = useState('tom share');
-  const [backgroundImage, setBackgroundImage] = useState('../public/iconofinal.png'); // Fondo predeterminado
+  const [mainTitle, setMainTitle] = useState('Yorkshire terrier');
+  const [backgroundImage, setBackgroundImage] = useState('/iconofinal.png'); // Fondo predeterminado
 
   const handleCardClick = (title, imageUrl) => {
     setMainTitle(title);
@@ -14,14 +14,14 @@ function App() {
   return (
     <>
       <div
-        className="min-h-screen bg-cover bg-right"
+        className="min-h-screen bg-cover bg-center"
         style={{ backgroundImage: `url('${backgroundImage}')` }}
       >
         <Navbar />
 
         <div className="mt-10 px-4 sm:ml-10 md:ml-20 lg:ml-20">
           <h1 className="text-3xl sm:text-4xl font-semibold dark:text-white">
-            <span className="sm:ml-10 md:ml-15 lg:ml-20">Enfermedades Caninas</span> <br />
+            <span className="sm:ml-10 md:ml-15 lg:ml-20 text-white">Enfermedades Caninas</span> <br />
           </h1>
           <span className="text-7xl sm:text-8xl md:text-9xl font-[Boldonse] leading-none block mt-4 sm:mt-6">
             <span className="text-yellow-300 sm:mr-10 md:mr-15 lg:mr-20">Perro</span> <br />
