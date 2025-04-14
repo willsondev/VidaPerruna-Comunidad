@@ -3,7 +3,7 @@
 
 Este proyecto es una aplicación React desarrollada con Vite, diseñada para la comunidad de Vida Perruana. Proporciona una configuración mínima para comenzar a trabajar con React en Vite, incluyendo HMR (Hot Module Replacement) y reglas de ESLint.
 
-Demo: https://vermillion-chaja-9b2b05.netlify.app/
+Demo: exploradorcanino.netlify.app
 
 ## Tecnologías Utilizadas
 
